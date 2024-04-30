@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using System.Windows; // Ajout de la référence
+using System.Windows;
 
 namespace Jeux_d_esprit
 {
@@ -20,16 +20,22 @@ namespace Jeux_d_esprit
             {
                 Console.WriteLine("Entrez votre commande (ex: /encrypt \"terme\" 5) :");
                 Console.WriteLine("Autre exemple : /decrypt \"je suis à l'école\" 16 :");
+                Console.WriteLine("Autre exemple : /Bruteforce \"je suis à l'école\" :");
                 Console.Write(">> ");
                 string commande = Console.ReadLine();
-                string pattern = @"\/(encrypt|decrypt)\s+""(.+)""\s*(-?\d+)";
+                string pattern = @"\/(encrypt|decrypt|bruteforce)\s+""(.+)""\s*(-?\d+)?";
                 Match match = Regex.Match(commande, pattern);
 
                 if (match.Success)
                 {
                     string operation = match.Groups[1].Value;
                     string terme = match.Groups[2].Value;
-                    int decalage = int.Parse(match.Groups[3].Value);
+                    int decalage = 0;
+
+                    if (match.Groups[3].Success)
+                    {
+                        decalage = int.Parse(match.Groups[3].Value);
+                    }
 
                     string resultat = "";
 
@@ -42,6 +48,10 @@ namespace Jeux_d_esprit
                     {
                         resultat = Decrypt(terme, decalage);
                         Console.WriteLine($"Le terme décrypté est : {resultat}");
+                    }
+                    else if (operation.ToLower() == "bruteforce")
+                    {
+                        BruteForce(terme);
                     }
                     else
                     {
@@ -57,7 +67,7 @@ namespace Jeux_d_esprit
                 {
                     Console.WriteLine("Format de commande invalide.");
                 }
-                Console.Write("\nVoulez-vous crypter/décrypter un terme ? (O/N) : ");
+                Console.Write("\nVoulez-vous crypter/décrypter ou brute force un terme ? (O/N) : ");
             } while (string.Equals(Console.ReadLine(), "O", StringComparison.OrdinalIgnoreCase));
         }
 
@@ -112,6 +122,17 @@ namespace Jeux_d_esprit
             }
 
             return termeDecrypte;
+        }
+
+        // Méthode pour effectuer une attaque par force brute
+        private static void BruteForce(string terme)
+        {
+            Console.WriteLine("Résultats de l'attaque par force brute :");
+            for (int i = 0; i < 26; i++)
+            {
+                string decryptedTerm = Decrypt(terme, i);
+                Console.WriteLine($"Décalage {i} : {decryptedTerm}");
+            }
         }
     }
 }

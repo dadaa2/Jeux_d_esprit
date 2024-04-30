@@ -25,4 +25,4 @@ C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'es
 C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\obj\Debug\net8.0\Jeux-d'esprit.csproj.CopyComplete
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\obj\Debug\net8.0\Jeux-d'e.8B2EC146.Up2Date
