@@ -30,6 +30,8 @@ namespace Jeux_d_esprit
                 while (!trouve)
                 {
                     Console.Write("Entrez votre estimation : ");
+                    Console.Write(">> ");
+
 
                     // Vérification de la saisie de l'utilisateur
                     if (!int.TryParse(Console.ReadLine(), out nombreDevine))

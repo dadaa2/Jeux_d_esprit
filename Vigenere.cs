@@ -52,8 +52,8 @@ namespace Jeux_d_esprit
                 {
                     decryptedMessage += letter;
                 }
-            }
 
+            }
             return decryptedMessage;
         }
 
@@ -95,6 +95,7 @@ namespace Jeux_d_esprit
             Console.WriteLine("Entrez votre commande (ex: /encrypt \"message\" cle) :");
             Console.WriteLine("Exemple pour crypter : /encrypt \"message\" cle");
             Console.WriteLine("Exemple pour décrypter : /decrypt \"message crypté\" cle");
+            Console.Write(">> ");
             string command = Console.ReadLine();
 
             string pattern = @"\/(encrypt|decrypt)\s+""(.+)""\s+(\w+)";

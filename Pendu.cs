@@ -80,7 +80,6 @@ namespace Jeux_d_esprit
                 {
                     Console.WriteLine("\nDommage ! Le mot secret était : {0}", motSecret);
                 }
-
                 Console.WriteLine("\nVoulez-vous rejouer au Pendu ? (O/N)");
             } while (Console.ReadKey(true).Key == ConsoleKey.O);
         }

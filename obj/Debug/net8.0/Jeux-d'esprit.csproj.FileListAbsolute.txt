@@ -12,3 +12,17 @@ C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'es
 C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\obj\Debug\net8.0\Jeux-d'esprit.pdb
 C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\obj\Debug\net8.0\Jeux-d'esprit.genruntimeconfig.cache
 C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\obj\Debug\net8.0\ref\Jeux-d'esprit.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\obj\Debug\net8.0\Jeux-d'esprit.csproj.AssemblyReference.cache
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\obj\Debug\net8.0\Jeux-d'esprit.sourcelink.json
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\SkyAPM.Abstractions.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\SkyAPM.Core.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\SkyAPM.Diagnostics.AspNetCore.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\SkyApm.Diagnostics.MySqlData.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\SkyAPM.Utilities.DependencyInjection.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\uriso\OneDrive\Documents\BTS SIO\SLAM\VISUAL CODE 2022\Projet_jeux_d'esprit\Jeux-d'esprit\obj\Debug\net8.0\Jeux-d'esprit.csproj.CopyComplete

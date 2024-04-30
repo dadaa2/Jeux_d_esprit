@@ -20,6 +20,7 @@ namespace Jeux_d_esprit
             {
                 Console.WriteLine("Entrez votre commande (ex: /encrypt \"terme\" 5) :");
                 Console.WriteLine("Autre exemple : /decrypt \"je suis à l'école\" 16 :");
+                Console.Write(">> ");
                 string commande = Console.ReadLine();
                 string pattern = @"\/(encrypt|decrypt)\s+""(.+)""\s*(-?\d+)";
                 Match match = Regex.Match(commande, pattern);

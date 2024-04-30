@@ -12,4 +12,110 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\uriso\.nuget\packages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlCommand.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlCommand.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlCommand.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlCommandBuilder.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlCommandBuilder.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlCommandBuilder.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlConnection.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlConnection.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlConnection.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlConnectionStringBuilder.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlConnectionStringBuilder.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlConnectionStringBuilder.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlDataAdapter.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlDataAdapter.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlDataAdapter.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlDataReader.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlDataReader.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlDataReader.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlException.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlException.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlException.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlHelper.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlHelper.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlHelper.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlParameter.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlParameter.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlParameter.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlParameterCollection.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlParameterCollection.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlParameterCollection.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlTransaction.xml" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\MySqlTransaction.xml')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>MySqlTransaction.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\app.config.transform" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\app.config.transform')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>app.config.transform</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\web.config.transform" Condition="Exists('$(NuGetPackageRoot)skyapm.diagnostics.mysqldata\0.8.0.1\contentFiles\any\netcoreapp2.0\web.config.transform')">
+      <NuGetPackageId>SkyAPM.Diagnostics.MySqlData</NuGetPackageId>
+      <NuGetPackageVersion>0.8.0.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>web.config.transform</Link>
+    </Content>
+  </ItemGroup>
 </Project>
