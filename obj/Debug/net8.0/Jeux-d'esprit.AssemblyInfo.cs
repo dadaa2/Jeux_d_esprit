@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jeux-d\'esprit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3d6ac31dc2da9fb03bd51a823d4454a1302ab69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc23d881e2a32489fcbb88007cfb057c5dd7bae1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jeux-d\'esprit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jeux-d\'esprit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
