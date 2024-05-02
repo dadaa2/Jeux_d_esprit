@@ -16,10 +16,10 @@ namespace Jeux_d_esprit
         {
             do
             {
+                Console.Clear();
                 // Génération d'un nombre aléatoire entre 1 et 100 inclus
                 Random random = new Random();
                 int nombreSecret = random.Next(1, 101);
-
                 Console.WriteLine("Bienvenue dans le jeu Plus ou Moins !");
                 Console.WriteLine("Devinez le nombre secret entre 1 et 100.");
 

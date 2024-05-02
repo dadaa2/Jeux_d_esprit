@@ -7,10 +7,6 @@ namespace Jeux_d_esprit
     {
         private string connectionString = "server=localhost;user=root;database=jeu;password=root";
 
-        public DatabaseManager()
-        {
-        }
-
         public Joueur AuthentifierJoueur()
         {
             try
@@ -39,6 +35,8 @@ namespace Jeux_d_esprit
                         else
                         {
                             Console.WriteLine($"Le joueur '{nomJoueur}' n'existe pas dans la base de données.");
+                            reader.Close();
+
 
                             // Demande au joueur de s'inscrire
                             Console.Write("Entrez votre adresse e-mail : ");

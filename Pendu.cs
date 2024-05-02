@@ -16,6 +16,7 @@ namespace Jeux_d_esprit
         {
             do
             {
+                Console.Clear();
                 // Logique du jeu Pendu
                 string[] mots = { "ordinateur", "programmation", "developpement", "algorithmique", "intelligence" };
                 Random random = new Random();
@@ -30,7 +31,6 @@ namespace Jeux_d_esprit
 
                 int coupsRestants = 11;
                 bool trouve = false;
-
                 Console.WriteLine("Bienvenue dans le jeu du Pendu !");
                 Console.WriteLine("Le mot à deviner contient {0} lettres.", motSecret.Length);
 

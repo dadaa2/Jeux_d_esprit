@@ -18,6 +18,7 @@ namespace Jeux_d_esprit
         {
             do
             {
+                Console.Clear();
                 Console.WriteLine("Entrez votre commande (ex: /encrypt \"terme\" 5) :");
                 Console.WriteLine("Autre exemple : /decrypt \"je suis à l'école\" 16 :");
                 Console.WriteLine("Autre exemple : /Bruteforce \"je suis à l'école\" :");
