@@ -37,7 +37,6 @@ namespace Jeux_d_esprit
                             Console.WriteLine($"Le joueur '{nomJoueur}' n'existe pas dans la base de données.");
                             reader.Close();
 
-
                             // Demande au joueur de s'inscrire
                             Console.Write("Entrez votre adresse e-mail : ");
                             string mailJoueur = Console.ReadLine();
@@ -65,3 +64,5 @@ namespace Jeux_d_esprit
         }
     }
 }
+
+

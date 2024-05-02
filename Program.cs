@@ -25,18 +25,30 @@ namespace Jeux_d_esprit
         {
             Console.Clear();
             int choix;
+
+            Console.WriteLine("Bienvenue dans Jeux d'esprit !");
+            Console.WriteLine("Veuillez choisir un jeu :");
+            Console.WriteLine("1. Plus ou Moins");
+            Console.WriteLine("2. Pendu");
+            Console.WriteLine("3. Cesar");
+            Console.WriteLine("4. Vigenère");
+            Console.WriteLine("9. Quitter");
+            Console.Write(">> ");
+
             do
             {
-                Console.WriteLine("Bienvenue dans Jeux d'esprit !");
-                Console.WriteLine("Veuillez choisir un jeu :");
-                Console.WriteLine("1. Plus ou Moins");
-                Console.WriteLine("2. Pendu");
-                Console.WriteLine("3. Cesar");
-                Console.WriteLine("4. Vigenère");
-                Console.WriteLine("9. Quitter");
-                Console.Write(">> ");
-                choix = int.Parse(Console.ReadLine());
+                // Lecture de l'entrée utilisateur
+                string input = Console.ReadLine();
 
+                // Tentative de conversion de l'entrée en entier
+                if (!int.TryParse(input, out choix))
+                {
+                    // Affiche un message d'erreur si la conversion échoue
+                    Console.WriteLine("Veuillez entrer un numéro valide.");
+                    continue; // Passe à l'itération suivante de la boucle
+                }
+
+                // Gestion des choix selon la valeur de choix
                 switch (choix)
                 {
                     case 1:
@@ -58,9 +70,7 @@ namespace Jeux_d_esprit
                         Console.WriteLine("Choix invalide.");
                         break;
                 }
-
             } while (choix != 9);
-
         }
     }
 }
