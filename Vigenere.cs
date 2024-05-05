@@ -91,6 +91,7 @@ namespace Jeux_d_esprit
         // Méthode pour interagir avec l'utilisateur
         public static void Jouer()
         {
+            Console.Clear();
             Console.WriteLine("Bienvenue dans le programme de chiffrement Vigenère !");
             Console.WriteLine("Entrez votre commande (ex: /encrypt \"message\" cle) :");
             Console.WriteLine("Exemple pour crypter : /encrypt \"message\" cle");
