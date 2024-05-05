@@ -7,9 +7,8 @@ namespace Jeux_d_esprit
     {
         static void Main(string[] args)
         {
-            DatabaseManager dbManager = new DatabaseManager(); // Pas besoin de passer de chaîne de connexion ici
-
             // Authentifier le joueur et récupérer le joueur
+            DatabaseManager dbManager = new DatabaseManager(); 
             Joueur joueur = dbManager.AuthentifierJoueur();
 
             if (joueur != null)
@@ -37,13 +36,10 @@ namespace Jeux_d_esprit
 
             do
             {
-                // Lecture de l'entrée utilisateur
+                // Bloc gestion de l'entré user 
                 string input = Console.ReadLine();
-
-                // Tentative de conversion de l'entrée en entier
                 if (!int.TryParse(input, out choix))
                 {
-                    // Affiche un message d'erreur si la conversion échoue
                     Console.WriteLine("Veuillez entrer un numéro valide.");
                     continue; // Passe à l'itération suivante de la boucle
                 }

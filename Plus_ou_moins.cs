@@ -1,27 +1,42 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Jeux_d_esprit
 {
     public class PlusOuMoins : Jeux
     {
-        // Constructeur
+        private TimeSpan Temps_effectué;
+        private Stopwatch chronometre;
+
         public PlusOuMoins(string nom, string principeDuJeu, int nombreDeJoueurs, DateTime derniereConnexion)
             : base(nom, principeDuJeu, nombreDeJoueurs, derniereConnexion)
         {
-
+            chronometre = new Stopwatch();
         }
 
-        // Méthode pour jouer au jeu Plus ou Moins
+        private void DebuterChronometre()
+        {
+            chronometre.Start();
+        }
+
+        private void ArreterChronometre()
+        {
+            chronometre.Stop();
+            Temps_effectué = chronometre.Elapsed;
+        }
+
         public static void Jouer()
         {
+            PlusOuMoins jeu = new PlusOuMoins("Nom", "Principe", 1, DateTime.Now);
+
             do
             {
                 Console.Clear();
-                // Génération d'un nombre aléatoire entre 1 et 100 inclus
                 Random random = new Random();
                 int nombreSecret = random.Next(1, 101);
                 Console.WriteLine("Bienvenue dans le jeu Plus ou Moins !");
                 Console.WriteLine("Devinez le nombre secret entre 1 et 100.");
+                jeu.DebuterChronometre();
 
                 int nombreDevine;
                 int nombreDeCoups = 0;
@@ -29,26 +44,23 @@ namespace Jeux_d_esprit
 
                 while (!trouve)
                 {
+                    // Affichage du temps écoulé
+                    Console.SetCursorPosition(0, Console.CursorTop);
+                    Console.WriteLine($"Temps écoulé : {jeu.chronometre.Elapsed.TotalSeconds} secondes");
+
                     Console.Write("Entrez votre estimation : ");
-                    Console.Write(">> ");
-
-
-                    // Vérification de la saisie de l'utilisateur
                     if (!int.TryParse(Console.ReadLine(), out nombreDevine))
                     {
                         Console.WriteLine("Veuillez entrer un nombre valide.");
                         continue;
                     }
 
-                    // Incrémenter le nombre de coups
                     nombreDeCoups++;
 
-                    // Vérifier si le nombre deviné est égal au nombre secret
                     if (nombreDevine == nombreSecret)
                     {
                         trouve = true;
                     }
-                    // Sinon, donner un indice à l'utilisateur
                     else if (nombreDevine < nombreSecret)
                     {
                         Console.WriteLine("Le nombre secret est plus grand.");
@@ -60,6 +72,8 @@ namespace Jeux_d_esprit
                 }
 
                 Console.WriteLine($"Bravo ! Vous avez trouvé le nombre secret en {nombreDeCoups} coups.");
+                jeu.ArreterChronometre();
+                Console.WriteLine($"Temps effectué : {jeu.Temps_effectué}");
                 Console.Write("\nVoulez-vous rejouer à Plus ou Moins ? (O/N) : ");
             } while (string.Equals(Console.ReadLine(), "O", StringComparison.OrdinalIgnoreCase));
         }
